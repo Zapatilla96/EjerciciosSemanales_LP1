@@ -12,7 +12,7 @@ public class SumaProducto{
         producto=num1*num2;
         System.out.println("La suma de los numeros es: "+suma);
         System.out.println("El producto de los numeros es: "+producto);
-        
+      leer.close();  
 
     }
 }
