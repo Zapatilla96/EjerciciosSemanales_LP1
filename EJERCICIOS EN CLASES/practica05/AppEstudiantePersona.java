@@ -1,3 +1,9 @@
+/**
+ * @LizDominguez
+ * AppEstudiantePersona
+ * 
+ */
+
 public class AppEstudiantePersona {
     public static void main(String[] args) {
         Estudiante e = new Estudiante("Luis Garcia", 20);

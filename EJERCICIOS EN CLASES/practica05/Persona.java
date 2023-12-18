@@ -1,4 +1,5 @@
 /**
+ * @LizDominguez
  * Persona
  */
 public class Persona {
