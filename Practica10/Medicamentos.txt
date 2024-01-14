@@ -1,0 +1,6 @@
+Codigo,NombredeArticulo,Descripcion,Precio
+354,fgh,oiij,64
+1,a,s,1234
+2,s,d,12343212
+null,null,null,null
+12,dfa,gfgf,gfg
