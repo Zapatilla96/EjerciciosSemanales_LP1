@@ -1,4 +1,5 @@
 package tienda;
+
 import javax.swing.*;
 
 public class Menu extends javax.swing.JFrame {
@@ -51,6 +52,34 @@ public class Menu extends javax.swing.JFrame {
         btCleanVenta = new javax.swing.JButton();
         btPagar = new javax.swing.JButton();
         btCerrarSesion = new javax.swing.JButton();
+        tAceiteVegetal1 = new javax.swing.JLabel();
+        precio5 = new javax.swing.JLabel();
+        txtCantidad4 = new javax.swing.JLabel();
+        btResta5 = new javax.swing.JButton();
+        etCantidad5 = new javax.swing.JTextField();
+        btSuma5 = new javax.swing.JButton();
+        tLeche1 = new javax.swing.JLabel();
+        precio6 = new javax.swing.JLabel();
+        txtCantidad5 = new javax.swing.JLabel();
+        btResta6 = new javax.swing.JButton();
+        etCantidad6 = new javax.swing.JTextField();
+        btSuma6 = new javax.swing.JButton();
+        tAtun1 = new javax.swing.JLabel();
+        precio7 = new javax.swing.JLabel();
+        txtCantidad6 = new javax.swing.JLabel();
+        btResta7 = new javax.swing.JButton();
+        etCantidad7 = new javax.swing.JTextField();
+        btSuma7 = new javax.swing.JButton();
+        tCola1 = new javax.swing.JLabel();
+        txtCantidad7 = new javax.swing.JLabel();
+        precio8 = new javax.swing.JLabel();
+        btResta8 = new javax.swing.JButton();
+        etCantidad8 = new javax.swing.JTextField();
+        btSuma8 = new javax.swing.JButton();
+        ivProducto5 = new javax.swing.JLabel();
+        ivProducto6 = new javax.swing.JLabel();
+        ivProducto7 = new javax.swing.JLabel();
+        ivProducto8 = new javax.swing.JLabel();
         fondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -59,59 +88,59 @@ public class Menu extends javax.swing.JFrame {
         MiTiendita.setFont(new java.awt.Font("Arial", 1, 36)); // NOI18N
         MiTiendita.setForeground(new java.awt.Color(255, 255, 51));
         MiTiendita.setText("TIENDA - STORE");
-        getContentPane().add(MiTiendita, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 20, -1, -1));
+        getContentPane().add(MiTiendita, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 10, -1, -1));
 
         ivProducto1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/aceite.jpg"))); // NOI18N
-        getContentPane().add(ivProducto1, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 92, 170, 170));
+        getContentPane().add(ivProducto1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 150, 140));
 
         ivProducto2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/leche.jpg"))); // NOI18N
-        getContentPane().add(ivProducto2, new org.netbeans.lib.awtextra.AbsoluteConstraints(225, 92, 170, 170));
+        getContentPane().add(ivProducto2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 60, 160, 140));
 
         ivProducto3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/pescado.jpg"))); // NOI18N
-        getContentPane().add(ivProducto3, new org.netbeans.lib.awtextra.AbsoluteConstraints(423, 92, 170, 170));
+        getContentPane().add(ivProducto3, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 60, 170, 140));
 
         ivProducto4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/refresco.jpg"))); // NOI18N
-        getContentPane().add(ivProducto4, new org.netbeans.lib.awtextra.AbsoluteConstraints(618, 92, 170, 170));
+        getContentPane().add(ivProducto4, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 60, 150, 140));
 
         tAceiteVegetal.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         tAceiteVegetal.setForeground(new java.awt.Color(255, 255, 255));
         tAceiteVegetal.setText("Aceite vegetal");
-        getContentPane().add(tAceiteVegetal, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 280, -1, -1));
+        getContentPane().add(tAceiteVegetal, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, -1, -1));
 
         tLeche.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         tLeche.setForeground(new java.awt.Color(255, 255, 255));
         tLeche.setText("Leche de vaca");
-        getContentPane().add(tLeche, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 280, -1, -1));
+        getContentPane().add(tLeche, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 210, -1, 20));
 
         tAtun.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         tAtun.setForeground(new java.awt.Color(255, 255, 255));
         tAtun.setText("Atún en lata");
-        getContentPane().add(tAtun, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 280, -1, -1));
+        getContentPane().add(tAtun, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 210, -1, 20));
 
         tCola.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         tCola.setForeground(new java.awt.Color(255, 255, 255));
         tCola.setText("Refresco en lata");
-        getContentPane().add(tCola, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 280, -1, -1));
+        getContentPane().add(tCola, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 210, -1, 20));
 
         precio1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         precio1.setForeground(new java.awt.Color(255, 255, 0));
         precio1.setText("13000");
-        getContentPane().add(precio1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
+        getContentPane().add(precio1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 220, -1, -1));
 
         precio2.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         precio2.setForeground(new java.awt.Color(255, 255, 0));
         precio2.setText("9000");
-        getContentPane().add(precio2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 290, -1, -1));
+        getContentPane().add(precio2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 220, -1, 30));
 
         precio3.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         precio3.setForeground(new java.awt.Color(255, 255, 0));
         precio3.setText("11500");
-        getContentPane().add(precio3, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 290, -1, -1));
+        getContentPane().add(precio3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 220, -1, 30));
 
         precio4.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         precio4.setForeground(new java.awt.Color(255, 255, 0));
         precio4.setText("7000");
-        getContentPane().add(precio4, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 290, -1, -1));
+        getContentPane().add(precio4, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 220, -1, 30));
 
         btSuma1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btSuma1.setText("+");
@@ -120,7 +149,7 @@ public class Menu extends javax.swing.JFrame {
                 btSuma1ActionPerformed(evt);
             }
         });
-        getContentPane().add(btSuma1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 360, 50, 30));
+        getContentPane().add(btSuma1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 270, 50, 30));
 
         etCantidad1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         etCantidad1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -130,7 +159,7 @@ public class Menu extends javax.swing.JFrame {
                 etCantidad1ActionPerformed(evt);
             }
         });
-        getContentPane().add(etCantidad1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 360, 50, 30));
+        getContentPane().add(etCantidad1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 270, 50, 30));
 
         btResta1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btResta1.setText("-");
@@ -139,7 +168,7 @@ public class Menu extends javax.swing.JFrame {
                 btResta1ActionPerformed(evt);
             }
         });
-        getContentPane().add(btResta1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 360, 50, 30));
+        getContentPane().add(btResta1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, 50, 30));
 
         btSuma2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btSuma2.setText("+");
@@ -148,12 +177,12 @@ public class Menu extends javax.swing.JFrame {
                 btSuma2ActionPerformed(evt);
             }
         });
-        getContentPane().add(btSuma2, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 360, 50, 30));
+        getContentPane().add(btSuma2, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 270, 50, 30));
 
         etCantidad2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         etCantidad2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         etCantidad2.setText("0");
-        getContentPane().add(etCantidad2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 360, 50, 30));
+        getContentPane().add(etCantidad2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 270, 50, 30));
 
         btResta2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btResta2.setText("-");
@@ -162,7 +191,7 @@ public class Menu extends javax.swing.JFrame {
                 btResta2ActionPerformed(evt);
             }
         });
-        getContentPane().add(btResta2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 360, 50, 30));
+        getContentPane().add(btResta2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 270, 50, 30));
 
         btSuma3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btSuma3.setText("+");
@@ -171,12 +200,12 @@ public class Menu extends javax.swing.JFrame {
                 btSuma3ActionPerformed(evt);
             }
         });
-        getContentPane().add(btSuma3, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 360, 50, 30));
+        getContentPane().add(btSuma3, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 270, 50, 30));
 
         etCantidad3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         etCantidad3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         etCantidad3.setText("0");
-        getContentPane().add(etCantidad3, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 360, 50, 30));
+        getContentPane().add(etCantidad3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 270, 50, 30));
 
         btResta3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btResta3.setText("-");
@@ -185,7 +214,7 @@ public class Menu extends javax.swing.JFrame {
                 btResta3ActionPerformed(evt);
             }
         });
-        getContentPane().add(btResta3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 360, 50, 30));
+        getContentPane().add(btResta3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 270, 50, 30));
 
         btSuma4.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btSuma4.setText("+");
@@ -194,12 +223,12 @@ public class Menu extends javax.swing.JFrame {
                 btSuma4ActionPerformed(evt);
             }
         });
-        getContentPane().add(btSuma4, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 360, 50, 30));
+        getContentPane().add(btSuma4, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 270, 50, 30));
 
         etCantidad4.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         etCantidad4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         etCantidad4.setText("0");
-        getContentPane().add(etCantidad4, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 360, 50, 30));
+        getContentPane().add(etCantidad4, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 270, 50, 30));
 
         btResta4.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btResta4.setText("-");
@@ -208,27 +237,27 @@ public class Menu extends javax.swing.JFrame {
                 btResta4ActionPerformed(evt);
             }
         });
-        getContentPane().add(btResta4, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 360, 50, 30));
+        getContentPane().add(btResta4, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 270, 50, 30));
 
         txtCantidad.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         txtCantidad.setForeground(new java.awt.Color(255, 255, 255));
         txtCantidad.setText("Cantidad");
-        getContentPane().add(txtCantidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 320, -1, -1));
+        getContentPane().add(txtCantidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 240, -1, -1));
 
         txtCantidad1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         txtCantidad1.setForeground(new java.awt.Color(255, 255, 255));
         txtCantidad1.setText("Cantidad");
-        getContentPane().add(txtCantidad1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 320, -1, -1));
+        getContentPane().add(txtCantidad1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 240, -1, -1));
 
         txtCantidad2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         txtCantidad2.setForeground(new java.awt.Color(255, 255, 255));
         txtCantidad2.setText("Cantidad");
-        getContentPane().add(txtCantidad2, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 320, -1, -1));
+        getContentPane().add(txtCantidad2, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 240, -1, -1));
 
         txtCantidad3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         txtCantidad3.setForeground(new java.awt.Color(255, 255, 255));
         txtCantidad3.setText("Cantidad");
-        getContentPane().add(txtCantidad3, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 320, -1, -1));
+        getContentPane().add(txtCantidad3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 240, -1, -1));
 
         btCleanVenta.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         btCleanVenta.setText("Cancelar compra");
@@ -237,7 +266,7 @@ public class Menu extends javax.swing.JFrame {
                 btCleanVentaActionPerformed(evt);
             }
         });
-        getContentPane().add(btCleanVenta, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 425, 170, 51));
+        getContentPane().add(btCleanVenta, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 580, 170, 51));
 
         btPagar.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         btPagar.setText("Proceder al pago");
@@ -246,7 +275,7 @@ public class Menu extends javax.swing.JFrame {
                 btPagarActionPerformed(evt);
             }
         });
-        getContentPane().add(btPagar, new org.netbeans.lib.awtextra.AbsoluteConstraints(615, 425, 170, 51));
+        getContentPane().add(btPagar, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 580, 170, 51));
 
         btCerrarSesion.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         btCerrarSesion.setText("Cerrar sesión");
@@ -255,11 +284,179 @@ public class Menu extends javax.swing.JFrame {
                 btCerrarSesionActionPerformed(evt);
             }
         });
-        getContentPane().add(btCerrarSesion, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 425, 170, 51));
+        getContentPane().add(btCerrarSesion, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 580, 170, 51));
 
-        fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/store.jpg"))); // NOI18N
-        fondo.setText("jLabel3");
-        getContentPane().add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 800, 500));
+        tAceiteVegetal1.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        tAceiteVegetal1.setForeground(new java.awt.Color(255, 255, 255));
+        tAceiteVegetal1.setText("Harina");
+        getContentPane().add(tAceiteVegetal1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 452, -1, 30));
+
+        precio5.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        precio5.setForeground(new java.awt.Color(255, 255, 0));
+        precio5.setText("12000");
+        getContentPane().add(precio5, new org.netbeans.lib.awtextra.AbsoluteConstraints(65, 470, 70, 30));
+
+        txtCantidad4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtCantidad4.setForeground(new java.awt.Color(255, 255, 255));
+        txtCantidad4.setText("Cantidad");
+        getContentPane().add(txtCantidad4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 490, -1, 30));
+
+        btResta5.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btResta5.setText("-");
+        btResta5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btResta5ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btResta5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 520, 50, 30));
+
+        etCantidad5.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        etCantidad5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        etCantidad5.setText("0");
+        etCantidad5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                etCantidad5ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(etCantidad5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 520, 50, 30));
+
+        btSuma5.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btSuma5.setText("+");
+        btSuma5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btSuma5ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btSuma5, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 520, 50, 30));
+
+        tLeche1.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        tLeche1.setForeground(new java.awt.Color(255, 255, 255));
+        tLeche1.setText("Agua");
+        getContentPane().add(tLeche1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 450, -1, 30));
+
+        precio6.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        precio6.setForeground(new java.awt.Color(255, 255, 0));
+        precio6.setText("5000");
+        getContentPane().add(precio6, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 470, -1, 30));
+
+        txtCantidad5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtCantidad5.setForeground(new java.awt.Color(255, 255, 255));
+        txtCantidad5.setText("Cantidad");
+        getContentPane().add(txtCantidad5, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 495, -1, 20));
+
+        btResta6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btResta6.setText("-");
+        btResta6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btResta6ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btResta6, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 520, 50, 30));
+
+        etCantidad6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        etCantidad6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        etCantidad6.setText("0");
+        getContentPane().add(etCantidad6, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 520, 50, 30));
+
+        btSuma6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btSuma6.setText("+");
+        btSuma6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btSuma6ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btSuma6, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 520, 50, 30));
+
+        tAtun1.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        tAtun1.setForeground(new java.awt.Color(255, 255, 255));
+        tAtun1.setText("Huevos");
+        getContentPane().add(tAtun1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 458, -1, -1));
+
+        precio7.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        precio7.setForeground(new java.awt.Color(255, 255, 0));
+        precio7.setText("24000");
+        getContentPane().add(precio7, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 470, -1, 30));
+
+        txtCantidad6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtCantidad6.setForeground(new java.awt.Color(255, 255, 255));
+        txtCantidad6.setText("Cantidad");
+        getContentPane().add(txtCantidad6, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 490, -1, 30));
+
+        btResta7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btResta7.setText("-");
+        btResta7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btResta7ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btResta7, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 520, 50, 30));
+
+        etCantidad7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        etCantidad7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        etCantidad7.setText("0");
+        getContentPane().add(etCantidad7, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 520, 50, 30));
+
+        btSuma7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btSuma7.setText("+");
+        btSuma7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btSuma7ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btSuma7, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 520, 50, 30));
+
+        tCola1.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        tCola1.setForeground(new java.awt.Color(255, 255, 255));
+        tCola1.setText("Arroz");
+        getContentPane().add(tCola1, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 450, 60, 30));
+
+        txtCantidad7.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtCantidad7.setForeground(new java.awt.Color(255, 255, 255));
+        txtCantidad7.setText("Cantidad");
+        getContentPane().add(txtCantidad7, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 495, 80, 20));
+
+        precio8.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        precio8.setForeground(new java.awt.Color(255, 255, 0));
+        precio8.setText("7000");
+        getContentPane().add(precio8, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 470, 60, 30));
+
+        btResta8.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btResta8.setText("-");
+        btResta8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btResta8ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btResta8, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 520, 50, 30));
+
+        etCantidad8.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        etCantidad8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        etCantidad8.setText("0");
+        getContentPane().add(etCantidad8, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 520, 50, 30));
+
+        btSuma8.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btSuma8.setText("+");
+        btSuma8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btSuma8ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btSuma8, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 520, 50, 30));
+
+        ivProducto5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/harina.png"))); // NOI18N
+        getContentPane().add(ivProducto5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 320, 140, -1));
+
+        ivProducto6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/agua.png"))); // NOI18N
+        getContentPane().add(ivProducto6, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 310, 130, 140));
+
+        ivProducto7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/huevo.png"))); // NOI18N
+        getContentPane().add(ivProducto7, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 330, 150, 110));
+
+        ivProducto8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/arroz.jpg"))); // NOI18N
+        getContentPane().add(ivProducto8, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 310, 140, 140));
+
+        fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/menu.png"))); // NOI18N
+        getContentPane().add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 780, 640));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -267,104 +464,110 @@ public class Menu extends javax.swing.JFrame {
     private void btResta1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btResta1ActionPerformed
         // TODO add your handling code here:
         Integer cantidad = Integer.parseInt(etCantidad1.getText());
-        
+
         String resultado = String.valueOf(resta(cantidad));
-       
+
         etCantidad1.setText(resultado);
     }//GEN-LAST:event_btResta1ActionPerformed
 
     private void btResta2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btResta2ActionPerformed
         // TODO add your handling code here:
         Integer cantidad = Integer.parseInt(etCantidad2.getText());
-        
+
         String resultado = String.valueOf(resta(cantidad));
-       
+
         etCantidad2.setText(resultado);
     }//GEN-LAST:event_btResta2ActionPerformed
 
     private void btResta3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btResta3ActionPerformed
         // TODO add your handling code here:
         Integer cantidad = Integer.parseInt(etCantidad3.getText());
-        
+
         String resultado = String.valueOf(resta(cantidad));
-       
+
         etCantidad3.setText(resultado);
     }//GEN-LAST:event_btResta3ActionPerformed
 
     private void btResta4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btResta4ActionPerformed
         // TODO add your handling code here:
         Integer cantidad = Integer.parseInt(etCantidad4.getText());
-        
+
         String resultado = String.valueOf(resta(cantidad));
-       
+
         etCantidad4.setText(resultado);
     }//GEN-LAST:event_btResta4ActionPerformed
 
     private void btSuma2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btSuma2ActionPerformed
         // TODO add your handling code here:
         Integer cantidad = Integer.parseInt(etCantidad2.getText());
-        
+
         String resultado = String.valueOf(suma(cantidad));
-       
+
         etCantidad2.setText(resultado);
     }//GEN-LAST:event_btSuma2ActionPerformed
 
     private void btPagarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btPagarActionPerformed
         // TODO add your handling code here:
-        
-        String cantidad1= etCantidad1.getText();
+
+        String cantidad1 = etCantidad1.getText();
         int c1 = Integer.parseInt(cantidad1);
-        String cantidad2= etCantidad2.getText();
+        String cantidad2 = etCantidad2.getText();
         int c2 = Integer.parseInt(cantidad2);
-        String cantidad3= etCantidad3.getText();
+        String cantidad3 = etCantidad3.getText();
         int c3 = Integer.parseInt(cantidad3);
-        String cantidad4= etCantidad4.getText();
+        String cantidad4 = etCantidad4.getText();
         int c4 = Integer.parseInt(cantidad4);
-        
-        if(c1==0 && c2==0 && c3==0 && c4==0){
+        String cantidad5 = etCantidad5.getText();
+        int c5 = Integer.parseInt(cantidad5);
+        String cantidad6 = etCantidad6.getText();
+        int c6 = Integer.parseInt(cantidad6);
+        String cantidad7 = etCantidad7.getText();
+        int c7 = Integer.parseInt(cantidad7);
+        String cantidad8 = etCantidad8.getText();
+        int c8 = Integer.parseInt(cantidad8);
+
+        if (c1 == 0 && c2 == 0 && c3 == 0 && c4 == 0 && c5 == 0 && c6 == 0 && c7 == 0 && c8 == 0) {
             JOptionPane.showMessageDialog(null, "No hay articulos para pagar");
-        }else{
-            if(c1<0|| c2<0 || c3<0 || c4<0){
-            JOptionPane.showMessageDialog(null, "NO PUEDES INGRESAR CANTIDADES NEGATIVAS");
-            }else{
+        } else {
+            if (c1 < 0 || c2 < 0 || c3 < 0 || c4 < 0 || c5 < 0 || c6 < 0 || c7 < 0 || c8 < 0) {
+                JOptionPane.showMessageDialog(null, "NO PUEDES INGRESAR CANTIDADES NEGATIVAS");
+            } else {
                 this.setVisible(false);
                 Detalle ventana3 = new Detalle();
-        
-                ventana3.cantidades(cantidad1, cantidad2, cantidad3, cantidad4);
+
+                ventana3.cantidades(cantidad1, cantidad2, cantidad3, cantidad4,cantidad5,cantidad6,cantidad7,cantidad8);
                 ventana3.setVisible(true);
             }
-        
-        
+
         }
-        
-        
-        
+
+
     }//GEN-LAST:event_btPagarActionPerformed
-    
+
     private void btSuma1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btSuma1ActionPerformed
         // TODO add your handling code here:
         Integer cantidad = Integer.parseInt(etCantidad1.getText());
-        
+
         String resultado = String.valueOf(suma(cantidad));
-       
+
         etCantidad1.setText(resultado);
     }//GEN-LAST:event_btSuma1ActionPerformed
 
     private void btSuma3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btSuma3ActionPerformed
         // TODO add your handling code here:
         Integer cantidad = Integer.parseInt(etCantidad3.getText());
-        
+
         String resultado = String.valueOf(suma(cantidad));
-       
+
         etCantidad3.setText(resultado);
     }//GEN-LAST:event_btSuma3ActionPerformed
 
     private void btSuma4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btSuma4ActionPerformed
         // TODO add your handling code here:
         Integer cantidad = Integer.parseInt(etCantidad4.getText());
-        
+
         String resultado = String.valueOf(suma(cantidad));
-       
+
         etCantidad4.setText(resultado);
     }//GEN-LAST:event_btSuma4ActionPerformed
 
@@ -372,7 +575,7 @@ public class Menu extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_etCantidad1ActionPerformed
 
-    
+
     private void btCerrarSesionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btCerrarSesionActionPerformed
         // TODO add your handling code here:
         Login ventana1 = new Login();
@@ -386,6 +589,74 @@ public class Menu extends javax.swing.JFrame {
         etCantidad3.setText("0");
         etCantidad4.setText("0");
     }//GEN-LAST:event_btCleanVentaActionPerformed
+
+    private void btResta5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btResta5ActionPerformed
+        Integer cantidad = Integer.parseInt(etCantidad5.getText());
+
+        String resultado = String.valueOf(resta(cantidad));
+
+        etCantidad5.setText(resultado);
+    }//GEN-LAST:event_btResta5ActionPerformed
+
+    private void etCantidad5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_etCantidad5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_etCantidad5ActionPerformed
+
+    private void btSuma5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btSuma5ActionPerformed
+        Integer cantidad = Integer.parseInt(etCantidad5.getText());
+
+        String resultado = String.valueOf(suma(cantidad));
+
+        etCantidad5.setText(resultado);
+    }//GEN-LAST:event_btSuma5ActionPerformed
+
+    private void btResta6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btResta6ActionPerformed
+        Integer cantidad = Integer.parseInt(etCantidad6.getText());
+        
+        String resultado = String.valueOf(resta(cantidad));
+       
+        etCantidad6.setText(resultado);
+    }//GEN-LAST:event_btResta6ActionPerformed
+
+    private void btSuma6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btSuma6ActionPerformed
+        Integer cantidad = Integer.parseInt(etCantidad6.getText());
+
+        String resultado = String.valueOf(suma(cantidad));
+
+        etCantidad6.setText(resultado);
+    }//GEN-LAST:event_btSuma6ActionPerformed
+
+    private void btResta7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btResta7ActionPerformed
+        Integer cantidad = Integer.parseInt(etCantidad7.getText());
+        
+        String resultado = String.valueOf(resta(cantidad));
+       
+        etCantidad7.setText(resultado);
+    }//GEN-LAST:event_btResta7ActionPerformed
+
+    private void btSuma7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btSuma7ActionPerformed
+        Integer cantidad = Integer.parseInt(etCantidad7.getText());
+
+        String resultado = String.valueOf(suma(cantidad));
+
+        etCantidad7.setText(resultado);
+    }//GEN-LAST:event_btSuma7ActionPerformed
+
+    private void btResta8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btResta8ActionPerformed
+        Integer cantidad = Integer.parseInt(etCantidad8.getText());
+        
+        String resultado = String.valueOf(resta(cantidad));
+       
+        etCantidad8.setText(resultado);
+    }//GEN-LAST:event_btResta8ActionPerformed
+
+    private void btSuma8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btSuma8ActionPerformed
+        Integer cantidad = Integer.parseInt(etCantidad8.getText());
+
+        String resultado = String.valueOf(suma(cantidad));
+
+        etCantidad8.setText(resultado);
+    }//GEN-LAST:event_btSuma8ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -422,13 +693,15 @@ public class Menu extends javax.swing.JFrame {
             }
         });
     }
-    private int suma(int cantidad){
-        cantidad = cantidad +1;        
+
+    private int suma(int cantidad) {
+        cantidad = cantidad + 1;
         return cantidad;
     }
-    private int resta(int cantidad){
-        if(cantidad>0){
-            cantidad = cantidad -1;
+
+    private int resta(int cantidad) {
+        if (cantidad > 0) {
+            cantidad = cantidad - 1;
         }
         return cantidad;
     }
@@ -442,30 +715,58 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JButton btResta2;
     private javax.swing.JButton btResta3;
     private javax.swing.JButton btResta4;
+    private javax.swing.JButton btResta5;
+    private javax.swing.JButton btResta6;
+    private javax.swing.JButton btResta7;
+    private javax.swing.JButton btResta8;
     private javax.swing.JButton btSuma1;
     private javax.swing.JButton btSuma2;
     private javax.swing.JButton btSuma3;
     private javax.swing.JButton btSuma4;
+    private javax.swing.JButton btSuma5;
+    private javax.swing.JButton btSuma6;
+    private javax.swing.JButton btSuma7;
+    private javax.swing.JButton btSuma8;
     private javax.swing.JTextField etCantidad1;
     private javax.swing.JTextField etCantidad2;
     private javax.swing.JTextField etCantidad3;
     private javax.swing.JTextField etCantidad4;
+    private javax.swing.JTextField etCantidad5;
+    private javax.swing.JTextField etCantidad6;
+    private javax.swing.JTextField etCantidad7;
+    private javax.swing.JTextField etCantidad8;
     private javax.swing.JLabel fondo;
     private javax.swing.JLabel ivProducto1;
     private javax.swing.JLabel ivProducto2;
     private javax.swing.JLabel ivProducto3;
     private javax.swing.JLabel ivProducto4;
+    private javax.swing.JLabel ivProducto5;
+    private javax.swing.JLabel ivProducto6;
+    private javax.swing.JLabel ivProducto7;
+    private javax.swing.JLabel ivProducto8;
     private javax.swing.JLabel precio1;
     private javax.swing.JLabel precio2;
     private javax.swing.JLabel precio3;
     private javax.swing.JLabel precio4;
+    private javax.swing.JLabel precio5;
+    private javax.swing.JLabel precio6;
+    private javax.swing.JLabel precio7;
+    private javax.swing.JLabel precio8;
     private javax.swing.JLabel tAceiteVegetal;
+    private javax.swing.JLabel tAceiteVegetal1;
     private javax.swing.JLabel tAtun;
+    private javax.swing.JLabel tAtun1;
     private javax.swing.JLabel tCola;
+    private javax.swing.JLabel tCola1;
     private javax.swing.JLabel tLeche;
+    private javax.swing.JLabel tLeche1;
     private javax.swing.JLabel txtCantidad;
     private javax.swing.JLabel txtCantidad1;
     private javax.swing.JLabel txtCantidad2;
     private javax.swing.JLabel txtCantidad3;
+    private javax.swing.JLabel txtCantidad4;
+    private javax.swing.JLabel txtCantidad5;
+    private javax.swing.JLabel txtCantidad6;
+    private javax.swing.JLabel txtCantidad7;
     // End of variables declaration//GEN-END:variables
 }

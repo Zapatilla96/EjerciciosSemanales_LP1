@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- SQL XML created by WWW SQL Designer, https://github.com/ondras/wwwsqldesigner/ -->
+<!-- Active URL: https://jaahosting.com/sqldesigner/ -->
+<sql>
+<datatypes db="sqlite">  
+ <group label="Affinity">  
+  <type label="Text" default="" length="1" sql="TEXT" quote="'" color="rgb(255,200,200)"/>  
+  <type label="Numeric" default="0" length="0" sql="NUMERIC" quote="" color="rgb(238,238,170)"/>  
+  <type label="Integer" default="0" length="0" sql="INTEGER" quote="" color="rgb(238,238,170)"/>  
+  <type label="Real" default="0" length="0" sql="REAL" quote="" color="rgb(238,238,170)"/>  
+  <type label="None" default="" length="0" sql="NONE" quote="" color="rgb(200,255,200)"/>  
+ </group>  
+</datatypes><table x="615" y="293" name="Articulos">
+<row name="id" null="0" autoincrement="1">
+<datatype>INTEGER</datatype>
+</row>
+<row name="NOMBRE" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+</row>
+<row name="DESCRIPCION" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+</row>
+<row name="STOCK" null="0" autoincrement="0">
+<datatype>REAL</datatype>
+</row>
+<row name="id_Categoria" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+</row>
+<row name="id_Proveedores" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<relation table="Proveedores" row="id" />
+</row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="379" y="453" name="Proveedores">
+<row name="id" null="0" autoincrement="1">
+<datatype>INTEGER</datatype>
+</row>
+<row name="PNombre" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+</row>
+<row name="PDireccion" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+</row>
+<row name="NTelefono" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+</row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="389" y="136" name="Entrada">
+<row name="id" null="0" autoincrement="1">
+<datatype>INTEGER</datatype>
+</row>
+<row name="Cantidad" null="0" autoincrement="0">
+<datatype>REAL</datatype>
+</row>
+<row name="Precio" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+</row>
+<row name="Total" null="0" autoincrement="0">
+<datatype>REAL</datatype>
+</row>
+<row name="id_Articulos" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<relation table="Articulos" row="id" />
+</row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="697" y="504" name="Clientes">
+<row name="id" null="0" autoincrement="1">
+<datatype>INTEGER</datatype>
+</row>
+<row name="CNombre" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+</row>
+<row name="CDireccion" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+</row>
+<row name="CTelefono" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+</row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="872" y="189" name="Salida">
+<row name="id" null="0" autoincrement="1">
+<datatype>INTEGER</datatype>
+</row>
+<row name="CantidadVenta" null="0" autoincrement="0">
+<datatype>REAL</datatype>
+</row>
+<row name="PrecioUnitario" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+</row>
+<row name="TotalVenta" null="0" autoincrement="0">
+<datatype>REAL</datatype>
+</row>
+<row name="id_Articulos" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<relation table="Articulos" row="id" />
+</row>
+<row name="id_Clientes" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<relation table="Clientes" row="id" />
+</row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+</sql>

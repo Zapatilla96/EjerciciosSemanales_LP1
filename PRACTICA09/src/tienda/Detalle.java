@@ -58,33 +58,52 @@ public class Detalle extends javax.swing.JFrame {
         btPagar = new javax.swing.JButton();
         txtTotalPagar = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
+        txtArticulo5 = new javax.swing.JLabel();
+        txtCantidad5 = new javax.swing.JLabel();
+        txtPrecioSinIVA5 = new javax.swing.JLabel();
+        txtPrecio5 = new javax.swing.JLabel();
+        txtDescuento5 = new javax.swing.JLabel();
+        txtPagar5 = new javax.swing.JLabel();
+        txtArticulo6 = new javax.swing.JLabel();
+        txtCantidad6 = new javax.swing.JLabel();
+        txtPrecioSinIVA6 = new javax.swing.JLabel();
+        txtPrecio6 = new javax.swing.JLabel();
+        txtDescuento6 = new javax.swing.JLabel();
+        txtPagar6 = new javax.swing.JLabel();
+        txtPrecio7 = new javax.swing.JLabel();
+        txtPrecioSinIVA7 = new javax.swing.JLabel();
+        txtPagar7 = new javax.swing.JLabel();
+        txtDescuento7 = new javax.swing.JLabel();
+        txtArticulo7 = new javax.swing.JLabel();
+        txtCantidad7 = new javax.swing.JLabel();
+        txtDescuento8 = new javax.swing.JLabel();
+        txtPrecioSinIVA8 = new javax.swing.JLabel();
+        txtPagar8 = new javax.swing.JLabel();
+        txtArticulo8 = new javax.swing.JLabel();
+        txtCantidad8 = new javax.swing.JLabel();
+        txtPrecio8 = new javax.swing.JLabel();
         fondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Arial", 2, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("Detalles de la venta");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 50, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Artículo");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Cantidad");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 110, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Precio");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 110, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Precio + IVA");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 110, -1, -1));
 
@@ -99,93 +118,77 @@ public class Detalle extends javax.swing.JFrame {
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 110, -1, -1));
 
         txtArticulo1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtArticulo1.setForeground(new java.awt.Color(0, 0, 0));
         txtArticulo1.setText("Aceite vegetal");
         getContentPane().add(txtArticulo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, 130, -1));
 
         txtArticulo2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtArticulo2.setForeground(new java.awt.Color(0, 0, 0));
         txtArticulo2.setText("Leche de vaca");
         getContentPane().add(txtArticulo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, 130, -1));
 
         txtArticulo3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtArticulo3.setForeground(new java.awt.Color(0, 0, 0));
         txtArticulo3.setText("Atún en lata");
         getContentPane().add(txtArticulo3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, 130, -1));
 
         txtArticulo4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtArticulo4.setForeground(new java.awt.Color(0, 0, 0));
         txtArticulo4.setText("Refresco en lata");
         getContentPane().add(txtArticulo4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, 130, -1));
 
         txtCantidad1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtCantidad1.setForeground(new java.awt.Color(0, 0, 0));
         txtCantidad1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txtCantidad1.setText("0");
         getContentPane().add(txtCantidad1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 140, 50, -1));
 
         txtCantidad2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtCantidad2.setForeground(new java.awt.Color(0, 0, 0));
         txtCantidad2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txtCantidad2.setText("0");
         getContentPane().add(txtCantidad2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 170, 50, -1));
 
         txtCantidad3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtCantidad3.setForeground(new java.awt.Color(0, 0, 0));
         txtCantidad3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txtCantidad3.setText("0");
         getContentPane().add(txtCantidad3, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 200, 50, -1));
 
         txtCantidad4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtCantidad4.setForeground(new java.awt.Color(0, 0, 0));
         txtCantidad4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txtCantidad4.setText("0");
         getContentPane().add(txtCantidad4, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 230, 50, -1));
 
         txtPrecioSinIVA1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtPrecioSinIVA1.setForeground(new java.awt.Color(0, 0, 0));
         txtPrecioSinIVA1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txtPrecioSinIVA1.setText("₲0");
         getContentPane().add(txtPrecioSinIVA1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 140, 60, -1));
 
         txtPrecioSinIVA2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtPrecioSinIVA2.setForeground(new java.awt.Color(0, 0, 0));
         txtPrecioSinIVA2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txtPrecioSinIVA2.setText("₲0");
         getContentPane().add(txtPrecioSinIVA2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 170, 60, -1));
 
         txtPrecioSinIVA3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtPrecioSinIVA3.setForeground(new java.awt.Color(0, 0, 0));
         txtPrecioSinIVA3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txtPrecioSinIVA3.setText("₲0");
         getContentPane().add(txtPrecioSinIVA3, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 200, 60, -1));
 
         txtPrecioSinIVA4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtPrecioSinIVA4.setForeground(new java.awt.Color(0, 0, 0));
         txtPrecioSinIVA4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txtPrecioSinIVA4.setText("₲0");
         getContentPane().add(txtPrecioSinIVA4, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 230, 60, -1));
 
         txtPrecio1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtPrecio1.setForeground(new java.awt.Color(0, 0, 0));
         txtPrecio1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txtPrecio1.setText("₲0");
         getContentPane().add(txtPrecio1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 140, 60, -1));
 
         txtPrecio2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtPrecio2.setForeground(new java.awt.Color(0, 0, 0));
         txtPrecio2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txtPrecio2.setText("₲0");
         getContentPane().add(txtPrecio2, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 170, 60, -1));
 
         txtPrecio3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtPrecio3.setForeground(new java.awt.Color(0, 0, 0));
         txtPrecio3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txtPrecio3.setText("₲0");
         getContentPane().add(txtPrecio3, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 200, 60, -1));
 
         txtPrecio4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtPrecio4.setForeground(new java.awt.Color(0, 0, 0));
         txtPrecio4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txtPrecio4.setText("₲0");
         getContentPane().add(txtPrecio4, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 230, 60, -1));
@@ -269,14 +272,145 @@ public class Detalle extends javax.swing.JFrame {
         txtTotalPagar.setForeground(new java.awt.Color(255, 255, 255));
         txtTotalPagar.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txtTotalPagar.setText("₲0");
-        getContentPane().add(txtTotalPagar, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 260, 110, -1));
+        getContentPane().add(txtTotalPagar, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 380, 110, -1));
 
         jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("₲");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 260, -1, -1));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 380, -1, -1));
 
-        fondo.setForeground(new java.awt.Color(0, 0, 0));
+        txtArticulo5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtArticulo5.setText("Harina");
+        getContentPane().add(txtArticulo5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, 130, -1));
+
+        txtCantidad5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtCantidad5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtCantidad5.setText("0");
+        getContentPane().add(txtCantidad5, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 260, 50, -1));
+
+        txtPrecioSinIVA5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtPrecioSinIVA5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtPrecioSinIVA5.setText("₲0");
+        getContentPane().add(txtPrecioSinIVA5, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 260, 60, -1));
+
+        txtPrecio5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtPrecio5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtPrecio5.setText("₲0");
+        getContentPane().add(txtPrecio5, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 260, 60, -1));
+
+        txtDescuento5.setBackground(new java.awt.Color(255, 255, 255));
+        txtDescuento5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtDescuento5.setForeground(new java.awt.Color(255, 255, 255));
+        txtDescuento5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtDescuento5.setText("₲0");
+        getContentPane().add(txtDescuento5, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 260, 70, -1));
+
+        txtPagar5.setBackground(new java.awt.Color(255, 255, 255));
+        txtPagar5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtPagar5.setForeground(new java.awt.Color(255, 255, 255));
+        txtPagar5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtPagar5.setText("₲0");
+        getContentPane().add(txtPagar5, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 260, 80, -1));
+
+        txtArticulo6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtArticulo6.setText("Agua");
+        getContentPane().add(txtArticulo6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, 130, -1));
+
+        txtCantidad6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtCantidad6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtCantidad6.setText("0");
+        getContentPane().add(txtCantidad6, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 290, 50, -1));
+
+        txtPrecioSinIVA6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtPrecioSinIVA6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtPrecioSinIVA6.setText("₲0");
+        getContentPane().add(txtPrecioSinIVA6, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 290, 60, -1));
+
+        txtPrecio6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtPrecio6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtPrecio6.setText("₲0");
+        getContentPane().add(txtPrecio6, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 290, 60, -1));
+
+        txtDescuento6.setBackground(new java.awt.Color(255, 255, 255));
+        txtDescuento6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtDescuento6.setForeground(new java.awt.Color(255, 255, 255));
+        txtDescuento6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtDescuento6.setText("₲0");
+        getContentPane().add(txtDescuento6, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 290, 70, -1));
+
+        txtPagar6.setBackground(new java.awt.Color(255, 255, 255));
+        txtPagar6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtPagar6.setForeground(new java.awt.Color(255, 255, 255));
+        txtPagar6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtPagar6.setText("₲0");
+        getContentPane().add(txtPagar6, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 290, 80, -1));
+
+        txtPrecio7.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtPrecio7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtPrecio7.setText("₲0");
+        getContentPane().add(txtPrecio7, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 320, 60, -1));
+
+        txtPrecioSinIVA7.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtPrecioSinIVA7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtPrecioSinIVA7.setText("₲0");
+        getContentPane().add(txtPrecioSinIVA7, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 320, 60, -1));
+
+        txtPagar7.setBackground(new java.awt.Color(255, 255, 255));
+        txtPagar7.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtPagar7.setForeground(new java.awt.Color(255, 255, 255));
+        txtPagar7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtPagar7.setText("₲0");
+        getContentPane().add(txtPagar7, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 320, 80, -1));
+
+        txtDescuento7.setBackground(new java.awt.Color(255, 255, 255));
+        txtDescuento7.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtDescuento7.setForeground(new java.awt.Color(255, 255, 255));
+        txtDescuento7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtDescuento7.setText("₲0");
+        getContentPane().add(txtDescuento7, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 320, 70, -1));
+
+        txtArticulo7.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtArticulo7.setText("Huevo");
+        getContentPane().add(txtArticulo7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 320, 130, -1));
+
+        txtCantidad7.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtCantidad7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtCantidad7.setText("0");
+        getContentPane().add(txtCantidad7, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 320, 50, -1));
+
+        txtDescuento8.setBackground(new java.awt.Color(255, 255, 255));
+        txtDescuento8.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtDescuento8.setForeground(new java.awt.Color(255, 255, 255));
+        txtDescuento8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtDescuento8.setText("₲0");
+        getContentPane().add(txtDescuento8, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 350, 70, -1));
+
+        txtPrecioSinIVA8.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtPrecioSinIVA8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtPrecioSinIVA8.setText("₲0");
+        getContentPane().add(txtPrecioSinIVA8, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 350, 60, -1));
+
+        txtPagar8.setBackground(new java.awt.Color(255, 255, 255));
+        txtPagar8.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtPagar8.setForeground(new java.awt.Color(255, 255, 255));
+        txtPagar8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtPagar8.setText("₲0");
+        getContentPane().add(txtPagar8, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 350, 80, -1));
+
+        txtArticulo8.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtArticulo8.setText("Arroz");
+        getContentPane().add(txtArticulo8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 350, 130, -1));
+
+        txtCantidad8.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtCantidad8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtCantidad8.setText("0");
+        getContentPane().add(txtCantidad8, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 350, 50, -1));
+
+        txtPrecio8.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        txtPrecio8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtPrecio8.setText("₲0");
+        getContentPane().add(txtPrecio8, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 350, 60, -1));
+
         fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/pago.png"))); // NOI18N
         getContentPane().add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 800, 500));
 
@@ -338,45 +472,75 @@ public class Detalle extends javax.swing.JFrame {
             }
         });
     }
-    public void cantidades(String cantidad1, String cantidad2, String cantidad3, String cantidad4){
+    public void cantidades(String cantidad1, String cantidad2, String cantidad3, String cantidad4,String cantidad5,String cantidad6,String cantidad7,String cantidad8){
         DecimalFormat df = new DecimalFormat("#.##");
         //Cantidad
         txtCantidad1.setText(cantidad1);
         txtCantidad2.setText(cantidad2);
         txtCantidad3.setText(cantidad3);
         txtCantidad4.setText(cantidad4);
+        txtCantidad5.setText(cantidad5);
+        txtCantidad6.setText(cantidad6);
+        txtCantidad7.setText(cantidad7);
+        txtCantidad8.setText(cantidad8);
         
         //precios
         txtPrecioSinIVA1.setText("13000");
         txtPrecioSinIVA2.setText("9000");
         txtPrecioSinIVA3.setText("11500");
         txtPrecioSinIVA4.setText("7000");
+        txtPrecioSinIVA5.setText("12000");
+        txtPrecioSinIVA6.setText("5000");
+        txtPrecioSinIVA7.setText("24000");
+        txtPrecioSinIVA8.setText("10000");
         //precios + iva
         float p1 = 13000f + (13000f*0.10f);
         float p2 = 9000f + (9000f*0.10f);
         float p3 = 11500f + (11500f*0.10f);
         float p4 = 7000f + (7000f*0.10f);
+        float p5 = 7000f + (12000f*0.10f);
+        float p6 = 7000f + (5000f*0.10f);
+        float p7 = 7000f + (24000f*0.10f);
+        float p8 = 7000f + (10000f*0.10f);
         
         String prec1 = df.format(p1);
         String prec2 = df.format(p2);
         String prec3 = df.format(p3);
         String prec4 = df.format(p4);
+        String prec5 = df.format(p5);
+        String prec6 = df.format(p6);
+        String prec7 = df.format(p7);
+        String prec8 = df.format(p8);
         
         txtPrecio1.setText("$"+prec1);
         txtPrecio2.setText("$"+prec2);
         txtPrecio3.setText("$"+prec3);
         txtPrecio4.setText("$"+prec4);
+        txtPrecio5.setText("$"+prec5);
+        txtPrecio6.setText("$"+prec6);
+        txtPrecio7.setText("$"+prec7);
+        txtPrecio8.setText("$"+prec8);
         // descuentos
         int cantidadp1 = Integer.valueOf(cantidad1);
         int cantidadp2 = Integer.valueOf(cantidad2);
         int cantidadp3 = Integer.valueOf(cantidad3);
         int cantidadp4 = Integer.valueOf(cantidad4);
+        int cantidadp5 = Integer.valueOf(cantidad5);
+        int cantidadp6 = Integer.valueOf(cantidad6);
+        int cantidadp7 = Integer.valueOf(cantidad7);
+        int cantidadp8 = Integer.valueOf(cantidad8);
+        
         
         int cDescuentos;
         float aPagar1;
         float aPagar2;
         float aPagar3;
         float aPagar4;
+        float aPagar5;
+        float aPagar6;
+        float aPagar7;
+        float aPagar8;
+        
         //desceuntos para productos del 1 al 4
         if(cantidadp1>=3){          
             if(cantidadp1==3){ 
@@ -495,8 +659,153 @@ public class Detalle extends javax.swing.JFrame {
             String total4= df.format(aPagar4);
             txtPagar4.setText("$"+total4);
         }
+        if(cantidadp3>=3){          
+            if(cantidadp3==3){ 
+                String descuento= df.format(p3);
+                float cantidadF = Float.valueOf(cantidadp3);
+                aPagar3= (cantidadF-1f)*p3;
+                String total3 = df.format(aPagar3);
+                txtDescuento3.setText("$"+descuento);
+                txtPagar3.setText("$"+total3);
+            }else{
+                cDescuentos = (cantidadp3/3);
+                int cantidad= cantidadp3-(cDescuentos);
+                float cantidadP= Float.valueOf(cantidad);
+                
+                float desc= p3*cDescuentos;
+                aPagar3= p3*cantidadP;
+                
+                String total3= df.format(desc);
+                txtDescuento3.setText("$"+total3);
+                
+                String descuentoTotal= df.format(aPagar3);
+                txtPagar3.setText("$"+descuentoTotal);
+                
+            }
+        }else{
+            float cant3= Float.valueOf(cantidadp3);
+            aPagar3= p3*cant3;
+            String total3= String.valueOf(aPagar3);
+            txtPagar3.setText("$"+total3);
+        }
+        if(cantidadp5>=3){          
+            if(cantidadp5==3){ 
+                String descuento= df.format(p5);
+                float cantidadF = Float.valueOf(cantidadp5);
+                aPagar5= (cantidadF-1f)*p5;
+                String total5 = df.format(aPagar5);
+                txtDescuento5.setText("$"+descuento);
+                txtPagar5.setText("$"+total5);
+            }else{
+                cDescuentos = (cantidadp5/3);
+                int cantidad= cantidadp5-(cDescuentos);
+                float cantidadP= Float.valueOf(cantidad);
+                
+                float desc= p5*cDescuentos;
+                aPagar5= p5*cantidadP;
+                
+                String descuento= df.format(desc);
+                txtDescuento5.setText("$"+descuento);
+                
+                String total5= df.format(aPagar5);
+                txtPagar5.setText("$"+total5);
+                
+            }
+        }else{
+            float cant5= Float.valueOf(cantidadp5);
+            aPagar5= p5*cant5;
+            String total5= df.format(aPagar5);
+            txtPagar5.setText("$"+total5);
+        }
+        if(cantidadp6>=3){          
+            if(cantidadp6==3){ 
+                String descuento= df.format(p6);
+                float cantidadF = Float.valueOf(cantidadp6);
+                aPagar6= (cantidadF-1f)*p6;
+                String total6 = df.format(aPagar6);
+                txtDescuento6.setText("$"+descuento);
+                txtPagar6.setText("$"+total6);
+            }else{
+                cDescuentos = (cantidadp6/3);
+                int cantidad= cantidadp6-(cDescuentos);
+                float cantidadP= Float.valueOf(cantidad);
+                
+                float desc= p6*cDescuentos;
+                aPagar6= p6*cantidadP;
+                
+                String descuento= df.format(desc);
+                txtDescuento6.setText("$"+descuento);
+                
+                String total6= df.format(aPagar6);
+                txtPagar6.setText("$"+total6);
+                
+            }
+        }else{
+            float cant6= Float.valueOf(cantidadp6);
+            aPagar6= p6*cant6;
+            String total6= df.format(aPagar6);
+            txtPagar6.setText("$"+total6);
+        }
+        if(cantidadp7>=3){          
+            if(cantidadp7==3){ 
+                String descuento= df.format(p7);
+                float cantidadF = Float.valueOf(cantidadp7);
+                aPagar7= (cantidadF-1f)*p7;
+                String total7 = df.format(aPagar7);
+                txtDescuento7.setText("$"+descuento);
+                txtPagar7.setText("$"+total7);
+            }else{
+                cDescuentos = (cantidadp7/3);
+                int cantidad= cantidadp7-(cDescuentos);
+                float cantidadP= Float.valueOf(cantidad);
+                
+                float desc= p7*cDescuentos;
+                aPagar7= p7*cantidadP;
+                
+                String descuento= df.format(desc);
+                txtDescuento7.setText("$"+descuento);
+                
+                String total7= df.format(aPagar7);
+                txtPagar7.setText("$"+total7);
+                
+            }
+        }else{
+            float cant7= Float.valueOf(cantidadp7);
+            aPagar7= p7*cant7;
+            String total7= df.format(aPagar7);
+            txtPagar7.setText("$"+total7);
+        }
+        if(cantidadp8>=3){          
+            if(cantidadp8==3){ 
+                String descuento= df.format(p8);
+                float cantidadF = Float.valueOf(cantidadp8);
+                aPagar8= (cantidadF-1f)*p8;
+                String total8 = df.format(aPagar8);
+                txtDescuento8.setText("$"+descuento);
+                txtPagar8.setText("$"+total8);
+            }else{
+                cDescuentos = (cantidadp8/3);
+                int cantidad= cantidadp8-(cDescuentos);
+                float cantidadP= Float.valueOf(cantidad);
+                
+                float desc= p8*cDescuentos;
+                aPagar8= p8*cantidadP;
+                
+                String descuento= df.format(desc);
+                txtDescuento8.setText("$"+descuento);
+                
+                String total8= df.format(aPagar8);
+                txtPagar8.setText("$"+total8);
+                
+            }
+        }else{
+            float cant8= Float.valueOf(cantidadp8);
+            aPagar8= p8*cant8;
+            String total8= df.format(aPagar8);
+            txtPagar8.setText("$"+total8);
+        }
         
-        float pagoTotal= aPagar1 + aPagar2 + aPagar3 + aPagar4;
+        float pagoTotal= aPagar1 + aPagar2 + aPagar3 + aPagar4+ aPagar5+ aPagar6+ aPagar7+ aPagar8;
         String pagoTotalS = df.format(pagoTotal);
         txtTotalPagar.setText(pagoTotalS);
         
@@ -517,26 +826,50 @@ public class Detalle extends javax.swing.JFrame {
     private javax.swing.JLabel txtArticulo2;
     private javax.swing.JLabel txtArticulo3;
     private javax.swing.JLabel txtArticulo4;
+    private javax.swing.JLabel txtArticulo5;
+    private javax.swing.JLabel txtArticulo6;
+    private javax.swing.JLabel txtArticulo7;
+    private javax.swing.JLabel txtArticulo8;
     private javax.swing.JLabel txtCantidad1;
     private javax.swing.JLabel txtCantidad2;
     private javax.swing.JLabel txtCantidad3;
     private javax.swing.JLabel txtCantidad4;
+    private javax.swing.JLabel txtCantidad5;
+    private javax.swing.JLabel txtCantidad6;
+    private javax.swing.JLabel txtCantidad7;
+    private javax.swing.JLabel txtCantidad8;
     private javax.swing.JLabel txtDescuento1;
     private javax.swing.JLabel txtDescuento2;
     private javax.swing.JLabel txtDescuento3;
     private javax.swing.JLabel txtDescuento4;
+    private javax.swing.JLabel txtDescuento5;
+    private javax.swing.JLabel txtDescuento6;
+    private javax.swing.JLabel txtDescuento7;
+    private javax.swing.JLabel txtDescuento8;
     private javax.swing.JLabel txtPagar1;
     private javax.swing.JLabel txtPagar2;
     private javax.swing.JLabel txtPagar3;
     private javax.swing.JLabel txtPagar4;
+    private javax.swing.JLabel txtPagar5;
+    private javax.swing.JLabel txtPagar6;
+    private javax.swing.JLabel txtPagar7;
+    private javax.swing.JLabel txtPagar8;
     private javax.swing.JLabel txtPrecio1;
     private javax.swing.JLabel txtPrecio2;
     private javax.swing.JLabel txtPrecio3;
     private javax.swing.JLabel txtPrecio4;
+    private javax.swing.JLabel txtPrecio5;
+    private javax.swing.JLabel txtPrecio6;
+    private javax.swing.JLabel txtPrecio7;
+    private javax.swing.JLabel txtPrecio8;
     private javax.swing.JLabel txtPrecioSinIVA1;
     private javax.swing.JLabel txtPrecioSinIVA2;
     private javax.swing.JLabel txtPrecioSinIVA3;
     private javax.swing.JLabel txtPrecioSinIVA4;
+    private javax.swing.JLabel txtPrecioSinIVA5;
+    private javax.swing.JLabel txtPrecioSinIVA6;
+    private javax.swing.JLabel txtPrecioSinIVA7;
+    private javax.swing.JLabel txtPrecioSinIVA8;
     private javax.swing.JLabel txtTotalPagar;
     // End of variables declaration//GEN-END:variables
 }
